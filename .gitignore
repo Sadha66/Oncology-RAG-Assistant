@@ -1,0 +1,35 @@
+
+# API keys and secrets
+.env
+.env.*
+!.env.example
+
+# Python environments
+venv/
+ragas_env/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+
+# All original oncology documents
+/data/
+
+# FAISS database
+/vectordb/
+
+# Evaluation output files
+/results/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
